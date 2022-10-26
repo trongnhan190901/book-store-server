@@ -1,0 +1,28 @@
+{
+  "name": "book-store-server",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src",
+    "test": "echo \"Running tests... \n Done.\" && exit 0",
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.3.0",
+    "mongoose": "^6.6.6"
+  }
+}
